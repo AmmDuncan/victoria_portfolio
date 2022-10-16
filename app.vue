@@ -19,6 +19,6 @@ import Navbar from './components/layout/Navbar'
 
 
 .small-spacer {
-  height: 1rem;
+  height: 1.2rem;
 }
 </style>

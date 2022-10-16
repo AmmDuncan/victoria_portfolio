@@ -51,7 +51,8 @@ export default {
       },
       {
         text: `I took 5 accelerated class and had no time to finish up with my long essay for my English class.
-               Victoria was patient and presented herself professionally even though we're friends.
+               <div class="small-spacer"></div>Victoria was patient and presented herself professionally
+               even though we're friends.
               She accepted feedback from my professor and made changes where necessary.
               <div class="small-spacer"></div> I had grade A in the coursework.`,
         profile: {
@@ -112,7 +113,7 @@ export default {
 
     @media (min-width: 768px) {
       max-width: 44ch;
-      min-height: 30rem;
+      min-height: 32rem;
     }
 
     svg {
@@ -155,10 +156,12 @@ export default {
     display: grid;
     grid: 1fr / auto-flow max-content;
     gap: 1.5rem;
+    justify-content: center;
     align-items: center;
-    width: max-content;
+    width: 100%;
+    max-width: 25rem;
     margin-inline: auto;
-    padding: 1.6rem 4rem;
+    padding: 1.6rem 2rem;
     border-radius: 1.6rem 1.6rem 0 0;
     background: #f3f3f3;
     font-size: 1.6rem;
