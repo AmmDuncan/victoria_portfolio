@@ -158,15 +158,16 @@ export default {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 25rem;
+    //max-width: 25rem;
+    max-width: max-content;
     margin-inline: auto;
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 3.2rem;
     border-radius: 1.6rem 1.6rem 0 0;
     background: #f3f3f3;
     font-size: 1.6rem;
 
     &-pic {
-      --size: 4.8rem;
+      --size: 4rem;
       width: var(--size);
       height: var(--size);
       border-radius: 50%;
