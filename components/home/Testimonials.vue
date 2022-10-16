@@ -51,10 +51,10 @@ export default {
       },
       {
         text: `I took 5 accelerated class and had no time to finish up with my long essay for my English class.
-               <div class="small-spacer"></div>Victoria was patient and presented herself professionally
-               even though we're friends.
-              She accepted feedback from my professor and made changes where necessary.
-              <div class="small-spacer"></div> I had grade A in the coursework.`,
+                <div class="small-spacer"></div>Victoria was patient and presented herself professionally
+                even though we're friends.
+                She accepted feedback from my professor and made changes where necessary.
+                I had grade A in the coursework.`,
         profile: {
           name: 'Lottie'
         }
