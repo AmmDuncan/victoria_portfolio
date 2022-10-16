@@ -1,0 +1,18 @@
+html {
+  --purple: #833FAF;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 64px);
+  max-width: 992px;
+  margin-inline: auto;
+
+  &.rel {
+    position: relative;
+  }
+}
