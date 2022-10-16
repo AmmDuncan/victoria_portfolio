@@ -106,7 +106,7 @@ p {
 
   #arrow {
     opacity: 0;
-    translate: 0 -100%;
+    transform: translate(0, -100%);
   }
 
   .animate {
@@ -126,14 +126,14 @@ p {
   @keyframes stretch-entry {
     0% {
       opacity: 0;
-      translate: 0 -50%;
+      transform: translate(0, -50%);
     }
     50% {
       opacity: 1;
     }
     100% {
       opacity: 1;
-      translate: 0 0;
+      transform: translate(0, 0);
     }
   }
 
