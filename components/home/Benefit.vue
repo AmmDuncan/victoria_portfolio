@@ -47,10 +47,13 @@ const messRef = ref();
 onMounted(() => {
   const svgObserver = new window.IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      entry.target
-          .parentElement
-          .classList
-          .toggle('animate', entry.isIntersecting)
+      if (entry.isIntersecting) {
+        entry.target
+            .parentElement
+            .classList
+            .add('animate')
+        svgObserver.unobserve(entry.target);
+      }
     })
   })
   svgObserver.observe(messRef.value);
@@ -60,12 +63,13 @@ onMounted(() => {
 <style lang="scss" scoped>
 .benefits {
   padding-block: 12rem;
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
 }
 
 .container {
   @media (min-width: 768px) {
-    display: flex;
+    display: grid;
+    grid: 1fr / max-content 1fr;
     align-items: center;
   }
 }
@@ -74,7 +78,7 @@ onMounted(() => {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin-top: 6.4rem;
+  margin-top: 4.8rem;
 
   svg {
     width: 100%;

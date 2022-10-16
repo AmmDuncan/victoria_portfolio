@@ -5,7 +5,7 @@ html {
 
 body {
   font-size: 1.8rem;
-  font-family: Manrope, sans-serif;
+  font-family: Inter, sans-serif;
   color: var(--black);
 }
 
@@ -30,4 +30,9 @@ h1 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  opacity: 0.8;
+  line-height: 1.6;
 }
