@@ -111,15 +111,15 @@ p {
 
   .animate {
     #mess {
-      animation: along 3s ease forwards;
+      animation: along 4s ease forwards;
     }
 
     #arrow {
-      animation: stretch-entry 1s 2.8s ease forwards;
+      animation: stretch-entry 1s 3.5s ease forwards;
     }
 
     #clean {
-      animation: along 3s 3.6s ease forwards;
+      animation: along 2s 4.4s ease forwards;
     }
   }
 
