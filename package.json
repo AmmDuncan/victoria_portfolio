@@ -13,9 +13,5 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.55.0",
     "sass-loader": "^10.3.1"
-  },
-  "dependencies": {
-    "@fontsource/dm-sans": "^4.5.9",
-    "@fontsource/manrope": "^4.5.12"
   }
 }

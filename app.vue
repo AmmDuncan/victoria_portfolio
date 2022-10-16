@@ -10,11 +10,7 @@ import Navbar from './components/layout/Navbar'
 </script>
 
 <style lang="scss">
-@import "@fontsource/manrope/400.css";
-@import "@fontsource/manrope/500.css";
-@import "@fontsource/manrope/600.css";
-@import "@fontsource/manrope/700.css";
-@import "@fontsource/dm-sans/700.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;500;600;700&display=swap');
 /* vendors */
 @import "assets/styles/vendors/reset.scss";
 /* base */
