@@ -96,6 +96,10 @@ onMounted(() => {
 h1 {
   width: 100%;
   max-width: 18ch;
+
+  @media (max-width: 440px) {
+    max-width: 29rem;
+  }
 }
 
 p {
