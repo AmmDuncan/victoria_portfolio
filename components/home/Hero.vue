@@ -59,11 +59,11 @@ export default {
     max-width: 16ch;
     margin-bottom: 1.6rem;
 
-    @media (min-width: 840px) and (max-width: 991px) {
-      font-size: 4.4rem;
+    @media (min-width: 840px) {
+      font-size: 4rem;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 1100px) {
       font-size: 4.8rem;
     }
   }
