@@ -3,18 +3,19 @@
   <Shortcuts/>
   <Benefit/>
   <Testimonials/>
+  <Contact/>
 </template>
 
 <script>
-import Navbar from "../components/layout/Navbar";
 import Hero from "../components/home/Hero";
 import Shortcuts from "../components/home/Shortcuts";
 import Benefit from "../components/home/Benefit";
 import Testimonials from "../components/home/Testimonials";
+import Contact from "../components/home/Contact";
 
 export default {
   name: "index",
-  components: {Testimonials, Benefit, Shortcuts, Hero, Navbar}
+  components: {Contact, Testimonials, Benefit, Shortcuts, Hero}
 }
 </script>
 

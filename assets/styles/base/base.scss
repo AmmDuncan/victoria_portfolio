@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fdfdfd;
+}
+
 .container {
   width: calc(100% - 64px);
   max-width: 992px;

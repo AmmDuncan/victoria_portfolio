@@ -36,6 +36,18 @@ export default {
   font-weight: 500;
   cursor: pointer;
 
+  .txt {
+    display: inline-grid;
+    grid: 1fr /auto-flow max-content;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
   &.primary {
     color: white;
     background-color: var(--purple);
@@ -43,9 +55,9 @@ export default {
 
   &.full-w {
     width: 100%;
-    @media (min-width: 576px) {
-      width: max-content;
-    }
+    //@media (min-width: 576px) {
+    //  width: max-content;
+    //}
   }
 }
 </style>

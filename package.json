@@ -13,5 +13,8 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.55.0",
     "sass-loader": "^10.3.1"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0"
   }
 }
