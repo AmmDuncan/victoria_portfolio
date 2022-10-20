@@ -5,7 +5,7 @@
         <h1 class="heading">I help you educate and entertain your audience.</h1>
         <p>SEO optimized writing, content writing, newsletters, creative writing, student essays, powerpoint
           presentations.</p>
-        <Button variant="primary">Get in touch</Button>
+        <Button variant="primary" @click="scrollToElement('#get-in-touch')">Get in touch</Button>
       </div>
       <div class="illustration">
         <img src="../../assets/images/text-illustration.svg" alt="">
@@ -19,7 +19,14 @@ import Button from "../common/Button";
 
 export default {
   name: "Hero",
-  components: {Button}
+  components: { Button },
+  methods: {
+    scrollToElement(selector) {
+      const element = document.querySelector(selector)
+      const { y } = element.getBoundingClientRect();
+      window.scrollTo({ top: y, behavior: 'smooth' })
+    }
+  }
 }
 </script>
 
