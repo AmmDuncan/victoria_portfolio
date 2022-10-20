@@ -27,6 +27,10 @@
     align-items: center;
   }
 
+  .name {
+    font-size: 1.6rem;
+  }
+
   .nav-list {
     list-style: none;
     display: grid;
@@ -35,31 +39,35 @@
     align-items: center;
   }
 
+  .nav-link {
+    position: relative;
+    color: black;
+    font-size: 1.6rem;
+
+    &.router-link-active {
+      font-weight: 600;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: black;
+        bottom: -0.8rem;
+        left: 50%;
+        translate: -50% 0;
+        border-radius: 50%;
+      }
+    }
+  }
+
   @media (min-width: 992px) {
     .container {
       height: 9rem;
     }
 
-    .nav-link {
-      position: relative;
-      color: black;
-      font-size: 1.6rem;
-
-      &.router-link-active {
-        font-weight: 600;
-
-        &:before {
-          content: "";
-          position: absolute;
-          width: 5px;
-          height: 5px;
-          background-color: black;
-          bottom: -0.8rem;
-          left: 50%;
-          translate: -50% 0;
-          border-radius: 50%;
-        }
-      }
+    .name {
+      font-size: 1.8rem;
     }
   }
 }
